@@ -10,9 +10,8 @@
 </head>
 
 <body>
-    <h1 class="visually-hidden">Music Site for meetings and enjoying good vibe!</h1>
     <header>
-        <h2 class="visually-hidden">Navigation Menu</h2>
+        <h1 class="visually-hidden">Music Site for meetings and enjoying good vibe!</h1>
         <nav class="nav-menu">
             <ul class="logo">
                 <li>
@@ -26,30 +25,44 @@
             </ul>
         </nav>
     </header>
-    <section class="signing-leftturn">
-        <h2 class="visually-hidden">Signing in</h2>
-        <form action="submit">
-            <h2>Sign in</h2>
-            <input type="text">
-            <input type="password">
-            <a href="#">Forget pasword?</a>
-            <button>Sign in</button>
-        </form>
-        <div class="signup-form">
-            <p>
-                If u are here for the first time - you can create your account!
+    <main>
+        <section class="login">
+            <div class="login--left">
+                <h2 class="visually-hidden">Signing in</h2>
+                <form class="login--left--form" action="submit">
+                    <h2 class="login--left--head">Sign in</h2>
+                    <input class="login--left--text" type="text" placeholder="E-mail">
+                    <input class="login--left--password" type="password" placeholder="Password"><br>
+                    <a class="login--left--forget" href="#">Forget pasword?</a><br>
+                    <button class="login--left--button">Sign in</button>
+                    <p class="login--left--phrase">
+                        If u are here for the first time - you can create your account!
+                    </p>
+                    <button class="login--left--button">Sign up</button>
+                </form>
+            </div>
+            <div class="login--right">
+                <h2 class="visually-hidden">Image for enjoy</h2>
+                <div class="login--right--circle">
+                    <img class="login--right--image" src="/img/undraw_audio_player_re_cl20.svg" alt="GirlAudio"
+                        width="353" height="359">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer--name">
+            @Borzov Corporation
+        </p>
+        <p class="footer--motive">
+            Art for knowledge
+        </p>
+        <div class="footer--social">
+            <h3 class="footer--social--head">Social Networks</h3>
+            <p class="footer--social--link">
+                <a class="footer--social--link__instagram" href="https://www.instagram.com/_dmitry_borzov_/">@_dmitry_borzov_</a>
             </p>
-            <button>Sign up</button>
         </div>
-    </section>
-    <section class="signing-rightturn">
-        <h2 class="visually-hidden">Image for enjoy</h2>
-        <div class="image-login">
-            <img src="/img/undraw_audio_player_re_cl20.svg" alt="GirlAudio" width="353" height="359">
-        </div>
-    </section>
-    <footer>
-
     </footer>
 </body>
 

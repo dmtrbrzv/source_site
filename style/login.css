@@ -11,11 +11,8 @@
   body{
       background-color: #5A3939;
       font-family: 'Sanchez', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      
   }
-.signing-leftturn, .signing-rightturn{
-    background-color: #FFF;
-}
+
 .nav-menu{
     color: #F0E3E3;
     text-decoration: none;
@@ -23,9 +20,9 @@
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    width: 1300px;
     margin: 0 auto;
-    
+    /* border: 1px solid #000; */
 }
 a{
     color:inherit;
@@ -51,6 +48,7 @@ ul{
     cursor: pointer;
     background-color: #FF8D8D;
     border-radius: 25px ;
+    box-shadow: -4px -4px 40px rgba(87,82,82, 100%), 4px 4px 10px rgba(255,255,255, 22%);
 
 }
 .logo a:hover{
@@ -64,4 +62,97 @@ ul{
 .navigation li:last-child a:hover{
     background: rgba(255,141,141,50%);
     border: 1px solid rgba(255,141,141,50%);
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    /* width: 1000px; */
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+}
+.login--left{
+    background-color: #FFF;
+    padding: 30px;
+}
+
+.login--left--form{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.login--left--head{
+    font-size: 50px;
+}
+
+.login--left--text, .login--left--password{
+    border: 0;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.login--left--forget{
+    color: #4F769A;
+    font-size: 14px;
+    float: right;
+}
+
+.login--left--button{
+    background-color: #F0E3E3;
+    border: 0;
+    width: 100%;
+    border-radius: 23px;
+    font-size: 26px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.login--left--button:hover{
+    background-color: #D1C9C9;
+    cursor: pointer;
+    box-shadow: 4px 4px 16px rgba(87,82,82, 26%), -4px -4px 20px rgba(255,255,255, 100%);
+}
+
+.login--left--phrase{
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.login--right{
+    background-color: #F0E3E3;
+    padding: 30px;
+}
+
+.login--right--circle{
+    padding: 80px;
+    border-radius: 100%;
+    box-shadow: 4px 4px 16px rgba(87,82,82, 26%), -4px -4px 40px rgba(255,255,255, 100%);
+
+}
+.footer{
+    background-color: #343434;  
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.footer--name{
+    font-size: 17px;
+}
+
+.footer--motive{
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+.footer--social--link__instagram{
+    text-decoration: underline;
+
 }
