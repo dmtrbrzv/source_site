@@ -5,23 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/normalize.css">
+    <link rel="stylesheet" href="/style/visually-hidden.css">
     <link rel="stylesheet" href="/style/login.css">
     <title>MusicBox</title>
 </head>
 
-<body>
-    <header>
+<body class="body">
+    <header class="header">
         <h1 class="visually-hidden">Music Site for meetings and enjoying good vibe!</h1>
-        <nav class="nav-menu">
-            <ul class="logo">
-                <li>
-                    <a href="#"><img src="/img/logo.png" alt="LogoBrand" width="200"></a>
+        <nav class="header__navmenu">
+            <ul class="navmenu--logo">
+                <li class="navmenu--logo--item">
+                    <a href="login.html"><img src="/img/logo.svg" alt="LogoBrand" width="200"></a>
                 </li>
             </ul>
-            <ul class="navigation">
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Music</a></li>
-                <li><a href="#">Sign up</a></li>
+            <ul class="navmenu--links">
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="main.html">Music</a></li>
+                <li><a href="signup.html">Sign up</a></li>
             </ul>
         </nav>
     </header>
@@ -60,7 +61,8 @@
         <div class="footer--social">
             <h3 class="footer--social--head">Social Networks</h3>
             <p class="footer--social--link">
-                <a class="footer--social--link__instagram" href="https://www.instagram.com/_dmitry_borzov_/">@_dmitry_borzov_</a>
+                <a class="footer--social--link__instagram"
+                    href="https://vk.com/id395070606/">Borzov Evgeniy</a>
             </p>
         </div>
     </footer>

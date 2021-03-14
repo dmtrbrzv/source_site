@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an account</title>
+</head>
+<body>
+    <h1>Registration page</h1>
+    <header class="header">
+        <h2 class="visually-hidden">Search music and listen for pleasure</h2>
+        <nav class="header__navmenu">
+            <ul class="navmenu__logo">
+                <li class="logo__link">
+                    <a href="main.html">
+                        <img src="/img/logo.svg" alt="LogoBrand" width="200"></a>
+                </li>
+            </ul>
+            <ul class="navmenu__searchBar">
+                <li>
+                    <input class="searchBar__input" type="text" placeholder="Search">
+                    <button class="searchBar__searchButton">
+                        <svg height="35" width="35">
+                            <use xlink:href="/img/search__loope.svg#search__icon"></use>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+            <ul class="navmenu__links">
+                <li class="links__item"><a href="aboutus.html">About us</a></li>
+                <li class="links__item"><a href="main.html">Music</a></li>
+                <li class="links__item"><a href="login.html">Sign out</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Form of creating account</h2>
+        <h2>Lets start from this info about you</h2>
+        <form action="post">
+            <div>
+                <label for="email">Email</label><input id="email" type="text" placeholder="Email">
+                <label for="name">Name</label><input id="name" type="text" placeholder="Name">
+                <label for="surname">Surname</label><input id="surname" type="text" placeholder="Surname">
+                <label for="pass">Password</label><input id="pass" type="password" placeholder="Password">
+            </div>
+            <a href="#">Create</a>
+            <input type="reset" name="reset" value="Reset">
+        </form>
+    </section>
+</body>
+</html>
