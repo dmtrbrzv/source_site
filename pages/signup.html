@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/normalize.css">
+    <link rel="stylesheet" href="/style/visually-hidden.css">
+    <link rel="stylesheet" href="/style/header.css">
+    <link rel="stylesheet" href="/style/aboutus.css">
+    <link rel="stylesheet" href="/style/signup.css">
+    <link rel="stylesheet" href="/style/footer.css">
     <title>Create an account</title>
 </head>
-<body>
-    <h1>Registration page</h1>
+<body  class="body">
+    <h1 class="visually-hidden">Registration page</h1>
     <header class="header">
         <h2 class="visually-hidden">Search music and listen for pleasure</h2>
         <nav class="header__navmenu">
@@ -18,35 +24,52 @@
                 </li>
             </ul>
             <ul class="navmenu__searchBar">
-                <li>
+                <li class="navmenu__searchitem">
                     <input class="searchBar__input" type="text" placeholder="Search">
                     <button class="searchBar__searchButton">
-                        <svg height="35" width="35">
+                        <svg style="padding:0; margin:0;" height="27" width="35">
                             <use xlink:href="/img/search__loope.svg#search__icon"></use>
                         </svg>
+                        <!-- S -->
                     </button>
                 </li>
             </ul>
             <ul class="navmenu__links">
-                <li class="links__item"><a href="aboutus.html">About us</a></li>
+                <li class="links__item"><a href="#">Profile</a></li>
                 <li class="links__item"><a href="main.html">Music</a></li>
                 <li class="links__item"><a href="login.html">Sign out</a></li>
             </ul>
         </nav>
     </header>
-    <section>
-        <h2>Form of creating account</h2>
+    <section class="information">
+        <h2 class="visually-hidden">Form of creating account</h2>
         <h2>Lets start from this info about you</h2>
-        <form action="post">
-            <div>
-                <label for="email">Email</label><input id="email" type="text" placeholder="Email">
-                <label for="name">Name</label><input id="name" type="text" placeholder="Name">
-                <label for="surname">Surname</label><input id="surname" type="text" placeholder="Surname">
-                <label for="pass">Password</label><input id="pass" type="password" placeholder="Password">
+        <form action="post" class="information__form">
+            <div class="form__input">
+                <input id="email" type="text" placeholder="Email" class="form__input--elem">
+                <input id="name" type="text" placeholder="Name" class="form__input--elem">
+                <input id="surname" type="text" placeholder="Surname" class="form__input--elem">
+                <input id="pass" type="password" placeholder="Password" class="form__input--elem">
+                <input id="desc" type="text" placeholder="What type of music?" class="form__input--elem">
             </div>
             <a href="#">Create</a>
             <input type="reset" name="reset" value="Reset">
         </form>
     </section>
+    <footer class="footer">
+        <p class="footer--name">
+            @Borzov Corporation
+        </p>
+        <p class="footer--motive">
+            Art for knowledge
+        </p>
+        <div class="footer--social">
+            <h3 class="footer--social--head">Social Networks</h3>
+            <p class="footer--social--link">
+                <a class="footer--social--link__instagram"
+                    href="https://vk.com/id395070606/">Borzov Evgeniy</a>
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

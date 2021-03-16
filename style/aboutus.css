@@ -1,0 +1,28 @@
+.information, .information--contact{
+    background-color: #FBF0EF;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    width: 70%;
+}
+
+.information__main{
+    font-size: 17px;
+}
+
+.information__quest{
+    font-size: 27px;
+}
+
+.information__link{
+    font-size: 24px;
+    color: red;
+    text-decoration: underline;
+}
+.information--contact{
+    text-align: left;
+}
+.social__links{
+    list-style-type: none;
+    text-decoration: underline;
+}

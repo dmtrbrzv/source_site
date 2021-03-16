@@ -1,0 +1,19 @@
+.information__form{
+    width: 50%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.form__input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form__input--elem{
+    margin-bottom: 20px;
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 0;
+}
