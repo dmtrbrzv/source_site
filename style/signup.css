@@ -2,6 +2,7 @@
     width: 50%;
     margin: 0 auto;
     box-sizing: border-box;
+    margin-bottom: 50px;
 }
 
 .form__input{
@@ -16,4 +17,34 @@
     border-radius: 20px;
     padding: 10px;
     border: 0;
+}
+
+.form__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form__button{
+    border: 0;
+    padding: 0;
+    color: #fff;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 20px;
+    background-color: #FF8D8D;
+}
+
+.form__button:hover{
+    background-color: #d49292;
+}
+
+.form__button--create{
+    flex-grow: 3;
+    margin-right: 40px;
+}
+
+.form__button--reset{
+    flex-grow: 1;
+    background-color: #f53838;
 }

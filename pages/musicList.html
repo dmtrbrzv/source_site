@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/normalize.css">
+    <link rel="stylesheet" href="/style/visually-hidden.css">
+    <link rel="stylesheet" href="/style/header.css">
+    <link rel="stylesheet" href="/style/musicList.css">
+    <link rel="stylesheet" href="/style/footer.css">
     <title>Music List</title>
 </head>
-<body>
+
+<body class="body">
     <h1 class="visually-hidden">Music List</h1>
     <header class="header">
         <h2 class="visually-hidden">Search music and listen for pleasure</h2>
@@ -29,38 +36,51 @@
                 </li>
             </ul>
             <ul class="navmenu__links">
-                <li class="links__item"><a href="#">Profile</a></li>
+                <li class="links__item"><a href="profile.html">Profile</a></li>
                 <li class="links__item"><a href="main.html">Music</a></li>
                 <li class="links__item"><a href="login.html">Sign out</a></li>
             </ul>
         </nav>
     </header>
-    <section>
-        <h2>Cateogiries</h2>
-        <div>
-            <ul>
-                <li><a href="#">Jazz</a></li>
-                <li><a href="#">Pop music</a></li>
-                <li><a href="#">Blues</a></li>
-                <li><a href="#">R&B</a></li>
-                <li><a href="#">Acoustic</a></li>
-                <li><a href="#">Rock&Roll</a></li>
-                <li><a href="#">Alternative</a></li>
-                <li><a href="#">Metal</a></li>
-                <li><a href="#">Dancing</a></li>
-                <li><a href="#">Techno</a></li>
-            </ul>
-        </div>
-    </section>
-    <section>
-        <h2>Music</h2>
-        <ul>
-            <li>Drake</li>
-            <li>Feduk</li>
-            <li>New wave</li>
-            <li>Lorem</li>
-            <li>Loremmm</li>
+    <section class="list-categories list-categories--margin">
+        <h2 class="list-categories__header">Categories</h2>
+        <ul class="list-icons">
+            <li class="list-icons__category"><a href="#">Jazz</a></li>
+            <li class="list-icons__category"><a href="#">Pop music</a></li>
+            <li class="list-icons__category"><a href="#">Blues</a></li>
+            <li class="list-icons__category"><a href="#">R&B</a></li>
+            <li class="list-icons__category"><a href="#">Acoustic</a></li>
+            <li class="list-icons__category"><a href="#">Rock&Roll</a></li>
+            <li class="list-icons__category"><a href="#">Alternative</a></li>
+            <li class="list-icons__category"><a href="#">Metal</a></li>
+            <li class="list-icons__category"><a href="#">Dancing</a></li>
+            <li class="list-icons__category"><a href="#">Techno</a></li>
         </ul>
     </section>
+    <section class="list-categories">
+        <h2 class="list-categories__header">Music</h2>
+        <ul class="list-icons">
+            <li class="list-icons__category">Drake</li>
+            <li class="list-icons__category">Feduk</li>
+            <li class="list-icons__category">New wave</li>
+            <li class="list-icons__category">Lorem</li>
+            <li class="list-icons__category">Loremmm</li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <p class="footer--name">
+            @Borzov Corporation
+        </p>
+        <p class="footer--motive">
+            Art for knowledge
+        </p>
+        <div class="footer--social">
+            <h3 class="footer--social--head">Social Networks</h3>
+            <p class="footer--social--link">
+                <a class="footer--social--link__instagram" href="https://vk.com/id395070606/">Borzov Evgeniy</a>
+            </p>
+        </div>
+    </footer>
 </body>
+
 </html>

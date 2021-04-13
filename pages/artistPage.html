@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/header.css">
+    <link rel="stylesheet" href="/style/visually-hidden.css">
+    <link rel="stylesheet" href="/style/musicPage.css">
+    <link rel="stylesheet" href="/style/footer.css">
+    <title>Music Page</title>
+</head>
+
+<body class="body">
+    <h1 class="visually-hidden">Main information about this song</h1>
+    <header class="header">
+        <h2 class="visually-hidden">Search music and listen for pleasure</h2>
+        <nav class="header__navmenu">
+            <ul class="navmenu__logo">
+                <li class="logo__link">
+                    <a href="main.html">
+                        <img src="/img/logo.svg" alt="LogoBrand" width="200"></a>
+                </li>
+            </ul>
+            <ul class="navmenu__searchBar">
+                <li class="navmenu__searchitem">
+                    <input class="searchBar__input" type="text" placeholder="Search">
+                    <button class="searchBar__searchButton">
+                        <svg style="padding:0; margin:0;" height="27" width="35">
+                            <use xlink:href="/img/search__loope.svg#search__icon"></use>
+                        </svg>
+                        <!-- S -->
+                    </button>
+                </li>
+            </ul>
+            <ul class="navmenu__links">
+                <li class="links__item"><a href="musicList.html">Categories</a></li>
+                <li class="links__item"><a href="main.html">Music</a></li>
+                <li class="links__item"><a href="login.html">Sign out</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="info">
+            <h2 class="visually-hidden">Artist's information</h2>
+            <section class="info__image">
+                <div class="info__image--border">
+                    <img class="info__image--border"src="/img/Человек.png" alt="">
+                </div>
+            </section>
+            <section class="info__main">
+                <ul class="info__main__list">
+                    <li class="info__main__name">
+                        <span>
+                            Artist's name
+                        </span>
+                    </li>
+                    <li class="info__main__category">
+                        <ul class="info__main--flex">
+                            <li class="info__main__category__item"><a href="/pages/musicList.html">Jazz</a>
+                            </li>
+                            <li class="info__main__category__item"><a href="/pages/musicList.html">Blues</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <section class="info">
+            <h2 class="visually-hidden">Your music, categories - just relax</h2>
+            <article class="info__category">
+                <h3 class="category__header">Categories</h3>
+                <ul class="category__list">
+                    <li class="category__item"><a href="#">Jazz</a></li>
+                    <li class="category__item"><a href="#">Rock</a></li>
+                    <li class="category__item"><a href="#">Blues</a></li>
+                    <li class="category__item"><a href="#">Alternative</a></li>
+                    <li class="category__item"><a href="#">Techno</a></li>
+                    <li class="category__item"><a href="#">RnB</a></li>
+                    <li class="category__item"><a href="#">Dancing</a></li>
+                    <li class="category__item"><a href="#">Acoustic</a></li>
+                </ul>
+            </article>
+            <article class="info__music">
+                <h3 class="music__header">Artist's music</h3>
+                <ul>
+                    <li class="music__item"><a href="">New song of this artist</a></li>
+                    <li class="music__item"><a href="">New song of this artist</a></li>
+                    <li class="music__item"><a href="">New song of this artist</a></li>
+                    <li class="music__item"><a href="">New song of this artist</a></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer--name">
+            @Borzov Corporation
+        </p>
+        <p class="footer--motive">
+            Art for knowledge
+        </p>
+        <div class="footer--social">
+            <h3 class="footer--social--head">Social Networks</h3>
+            <p class="footer--social--link">
+                <a class="footer--social--link__instagram" href="https://vk.com/id395070606/">Borzov Evgeniy</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</body>
+
+</html>

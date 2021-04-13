@@ -1,0 +1,85 @@
+.body{
+    box-sizing: border-box;
+}
+.list-music{
+    background-color: #F0E3E3;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
+
+.list-music__icons, .list-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list-icons{
+    display: flex;
+    list-style-type: none;
+}
+
+.list-category{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.list-icons__album{
+    margin-right: 30px;
+}
+
+.list-list-icons__album--img{
+    padding: 30px;
+    border-radius: 100%;
+    box-shadow: 4px 4px 16px rgba(87,82,82, 26%), -4px -4px 40px rgba(255,255,255, 100%);
+    margin-bottom: 10px;
+}
+
+.list-list-icons__album--img:hover{
+    box-shadow: none;
+    box-shadow: inset 4px 4px 10px rgba(87,82,82, 26%), inset -4px -4px 16px rgba(255,255,255, 100%);
+}
+
+.list-music__moreButton{
+    background-color: #F0E3E3;
+    width: 300px;
+    text-align: center;
+    border: 0;
+    border-radius: 23px;
+    font-size: 26px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 4px 4px 16px rgba(87,82,82, 26%), -4px -4px 20px rgba(235,222,222, 100%);
+}
+.list-music__moreButton:hover, .button__category:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 30px rgba(87,82,82, 20%), 0px 0px 50px rgba(235,222,222, 100%);
+}
+
+.list-music__header{
+    font-size: 36px;
+}
+.category__link{
+    display: block;
+    margin: 0 auto;
+    border-radius: 23px;
+    padding: 10px;
+}
+.category__link:hover{
+    cursor: pointer;
+}
+
+.button__category{
+    background-color: #F0E3E3;
+    width: 300px;
+    text-align: center;
+    border: 0;
+    border-radius: 23px;
+    font-size: 26px;
+    box-shadow: 4px 4px 16px rgba(87,82,82, 26%), -4px -4px 20px rgba(235,222,222, 100%); 
+    margin-right: 30px;
+}
