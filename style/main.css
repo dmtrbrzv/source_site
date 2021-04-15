@@ -2,9 +2,11 @@
     box-sizing: border-box;
 }
 .list-music{
-    background-color: #F0E3E3;
+    background-color: #FBF0EF;
     padding: 30px;
     padding-bottom: 50px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 

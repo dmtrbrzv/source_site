@@ -3,7 +3,9 @@
 }
 
 .main{
-    background-color: #F0E3E3;
+    background-color: #FBF0EF;
+    width: 70%;
+    margin: 0 auto;
 }
 .info{
     width: 70%;
@@ -27,6 +29,10 @@
     align-items: center;
     justify-content: center;
 }
+.info__image--border:hover, .info__category:hover, .info__music:hover{
+    box-shadow:inset -2px -2px 16px rgba(87,82,82, 26%),inset 4px 4px 20px rgba(255,255,255, 100%);
+
+}
 
 .info__main{
     list-style-type: none;
@@ -39,12 +45,12 @@
 }
 
 .info__main__name{
-    font-size: 76px;
+    font-size: 56px;
 }
 
 .info__main__category{
     margin-top: 40px;
-    font-size: 36px;
+    font-size: 26px;
 }
 
 .info__main--flex{
@@ -59,20 +65,20 @@
 .info__category, .info__music{
     box-shadow: 4px 4px 16px rgba(87,82,82, 26%), -4px -4px 40px rgba(255,255,255, 100%);
     list-style-type: none;
-    width: 300px;
+    width: 250px;
     text-align: center;
     border-radius: 23px;
     padding: 30px;
 }
 
 .category__header, .music__header{
-    font-size: 46px;
+    font-size: 40px;
     padding: 0;
 }
 
 .category__item, .music__item{
     padding: 10px;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .category__item:hover, .music__item:hover{

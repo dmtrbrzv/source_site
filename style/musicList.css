@@ -1,12 +1,18 @@
 *{
     box-sizing: border-box;
 }
+
+.main-body{
+    width: 70%;
+    margin: 0 auto;
+}
+
 .list-categories__header{
     font-size: 36px;
 }
 
 .list-categories{
-    background-color: #F0E3E3;
+    background-color: #FBF0EF;
     padding: 30px;
     padding-bottom: 50px;
 
